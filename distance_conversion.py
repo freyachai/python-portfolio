@@ -17,4 +17,4 @@ def convert_distance(d_inches) :
         print (d_feet, "feet")
     # after counting all the above, if there are any inches left, the below will output it
     if d_inches_left > 0 :
-        print (((d_inches % 63360) % 36) % 12, "inch")
+        print (d_inches_left, "inches")
